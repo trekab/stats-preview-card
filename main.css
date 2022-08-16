@@ -102,3 +102,64 @@ body {
   color: var(--stat-headings);
   padding: 4px;
 }
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 1110px;
+    height: 446px;
+    display: flex;
+    min-height: unset;
+  }
+
+  .hero-overlay {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .hero {
+    order: 1;
+    height: 100%;
+    width: 50%;
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .main-details {
+    width: 50%;
+    padding: 72px;
+  }
+
+  .stats {
+    flex-direction: row;
+  }
+
+  .card h1 {
+    margin: 0;
+    text-align: start;
+    max-width: 403px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .card p {
+    text-align: start;
+    margin: 25px 0;
+    margin-bottom: 0;
+  }
+
+  .stats {
+    justify-content: space-between;
+    max-width: 352px;
+  }
+
+  .stat {
+    margin: 0;
+  }
+
+  .stat-num {
+    text-align: start;
+    margin: 0;
+  }
+}
