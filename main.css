@@ -45,7 +45,7 @@ body {
   background-image: url("./images/image-header-mobile.jpg");
   background-repeat: no-repeat;
   border-radius: 8px 8px 0 0;
-  background-size: contain;
+  background-size: cover;
   mix-blend-mode: difference;
 }
 
@@ -122,7 +122,6 @@ body {
     height: 100%;
     width: 50%;
     background-image: url("./images/image-header-desktop.jpg");
-    background-size: cover;
     border-radius: 0 8px 8px 0;
   }
 
