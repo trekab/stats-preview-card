@@ -106,9 +106,9 @@ body {
 @media (min-width: 768px) {
   .card {
     max-width: 1110px;
-    height: 446px;
+    min-height: 446px;
+    height: 45%;
     display: flex;
-    min-height: unset;
   }
 
   .hero-overlay {
@@ -120,14 +120,14 @@ body {
   .hero {
     order: 1;
     height: 100%;
-    width: 50%;
+    width: 48.6%;
     background-image: url("./images/image-header-desktop.jpg");
     border-radius: 0 8px 8px 0;
   }
 
   .main-details {
-    width: 50%;
-    padding: 72px;
+    width: 51.4%;
+    padding: 4rem;
   }
 
   .stats {
@@ -160,5 +160,9 @@ body {
   .stat-num {
     text-align: start;
     margin: 0;
+  }
+
+  .stat-label {
+    padding-left: 0;
   }
 }
